@@ -1,0 +1,28 @@
+{
+    "name": "bus",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "arcade-brohann-3d": "github:Brohann3214/arcade-brohann-3d#v0.5.2",
+        "arcade-sprite-util": "github:jwunderl/arcade-sprite-util#v0.4.1"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "1.12.57",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
